@@ -6,6 +6,7 @@ import hotelService from '../../services/hotelService'
 import Branding from '../Branding'
 import Search from '../Search'
 import Hotels from '../Hotels'
+import SortBar from '../SortBar'
 import './App.scss'
 
 class App extends React.Component {
@@ -175,14 +176,14 @@ class App extends React.Component {
           handleOnStarsChange={this.handleOnStarsChange}
           handleOnUserRatingChange={this.handleOnUserRatingChange}
         />
+        <SortBar key="SortBar" handleOnSort={this.handleOnSort} sortBy={sortBy} />
         { 
           isLoading ? 
             <div className="loader"></div>
           :
             <Hotels 
-              { ...{ hotelCount, hotels, page, perPage, sortBy } }
+              { ...{ hotelCount, hotels, page, perPage } }
               handleOnPaginate={this.handleOnPaginate}
-              handleOnSort={this.handleOnSort} 
             /> 
         }
       </div>

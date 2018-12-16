@@ -6,6 +6,7 @@ import Search from '../Search'
 import Hotels from '../Hotels'
 import hotelService from '../../services/hotelService'
 import Branding from '../Branding'
+import SortBar from '../SortBar'
 
 jest.mock('../../services/hotelService', () => {
   return jest.fn().mockImplementation(() => {
@@ -50,7 +51,12 @@ describe('App Component', () => {
     const wrapper = shallow(<App />)
     expect(wrapper.find(Search).length).toEqual(1)
   })
-  
+
+  it('renders <SortBar /> component', () => {
+    const wrapper = shallow(<App />)
+    expect(wrapper.find(SortBar).length).toEqual(1)
+  })
+
   it('renders <Hotels /> component', done => {
     const wrapper = shallow(<App />)
     setTimeout(() => {

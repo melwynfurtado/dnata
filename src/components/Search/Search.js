@@ -65,6 +65,21 @@ const Search = ({
               <Checkbox id="1star" value="6" handleChange={handleOnUserRatingChange}>
                 Above Average <small><strong>(6+)</strong></small>
               </Checkbox>
+              <Checkbox id="1star" value="5" handleChange={handleOnUserRatingChange}>
+                Average <small><strong>(5+)</strong></small>
+              </Checkbox>
+              <Checkbox id="1star" value="4" handleChange={handleOnUserRatingChange}>
+                Below Average <small><strong>(4+)</strong></small>
+              </Checkbox>    
+              <Checkbox id="1star" value="3" handleChange={handleOnUserRatingChange}>
+                Unsatisfactory <small><strong>(3+)</strong></small>
+              </Checkbox>
+              <Checkbox id="1star" value="2" handleChange={handleOnUserRatingChange}>
+                Poor <small><strong>(2+)</strong></small>
+              </Checkbox>    
+              <Checkbox id="1star" value="1" handleChange={handleOnUserRatingChange}>
+                Very Poor <small><strong>(1+)</strong></small>
+              </Checkbox>                                                       
               <Checkbox id="unrated" value="0" handleChange={handleOnUserRatingChange}>
                 Unrated
               </Checkbox>                                        

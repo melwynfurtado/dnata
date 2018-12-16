@@ -5,7 +5,7 @@ exports[`Hotels Component renders "No hotels found. Please try to adjust your qu
   className="hotels"
 >
   <p
-    className="lead"
+    className="lead m-3"
   >
     No hotels found. Please try to adjust your query or use one of the existing filters provided above.
   </p>
@@ -16,71 +16,6 @@ exports[`Hotels Component renders correctly 1`] = `
 <div
   className="hotels"
 >
-  <nav
-    className="sortbar navbar navbar-expand-lg navbar-light"
-  >
-    <button
-      className="navbar-toggler"
-      data-target="#sortBy"
-      data-toggle="collapse"
-      type="button"
-    >
-      Sort by 
-      <span
-        className="fa fa-sort"
-      />
-    </button>
-    <div
-      className="collapse navbar-collapse"
-      id="sortBy"
-    >
-      <div
-        className="navbar-nav"
-      >
-        <a
-          className="nav-item nav-link "
-          field="Distance"
-          href="#"
-          onClick={[Function]}
-          order="desc"
-        >
-          Distance
-        </a>
-        <a
-          className="nav-item nav-link active"
-          field="Stars"
-          href="#"
-          onClick={[Function]}
-          order="desc"
-        >
-          Stars
-          <span
-            className="ml-1 align-text-top fa fa-sort-desc"
-            field="Stars"
-            order="desc"
-          />
-        </a>
-        <a
-          className="nav-item nav-link "
-          field="MinCost"
-          href="#"
-          onClick={[Function]}
-          order="desc"
-        >
-          Minimum Cost
-        </a>
-        <a
-          className="nav-item nav-link "
-          field="UserRating"
-          href="#"
-          onClick={[Function]}
-          order="desc"
-        >
-          User ratings
-        </a>
-      </div>
-    </div>
-  </nav>
   <div
     className="hotel card mb-3"
   >
