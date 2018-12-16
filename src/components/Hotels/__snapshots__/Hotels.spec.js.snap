@@ -1,0 +1,234 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Hotels Component renders "No hotels found. Please try to adjust your query or use one of the existing filters provided above." 1`] = `
+<div
+  className="hotels"
+>
+  <p
+    className="lead"
+  >
+    No hotels found. Please try to adjust your query or use one of the existing filters provided above.
+  </p>
+</div>
+`;
+
+exports[`Hotels Component renders correctly 1`] = `
+<div
+  className="hotels"
+>
+  <nav
+    className="sortbar navbar navbar-expand-lg navbar-light"
+  >
+    <button
+      className="navbar-toggler"
+      data-target="#sortBy"
+      data-toggle="collapse"
+      type="button"
+    >
+      Sort by 
+      <span
+        className="fa fa-sort"
+      />
+    </button>
+    <div
+      className="collapse navbar-collapse"
+      id="sortBy"
+    >
+      <div
+        className="navbar-nav"
+      >
+        <a
+          className="nav-item nav-link "
+          field="Distance"
+          href="#"
+          onClick={[Function]}
+          order="desc"
+        >
+          Distance
+        </a>
+        <a
+          className="nav-item nav-link active"
+          field="Stars"
+          href="#"
+          onClick={[Function]}
+          order="desc"
+        >
+          Stars
+          <span
+            className="ml-1 align-text-top fa fa-sort-desc"
+            field="Stars"
+            order="desc"
+          />
+        </a>
+        <a
+          className="nav-item nav-link "
+          field="MinCost"
+          href="#"
+          onClick={[Function]}
+          order="desc"
+        >
+          Minimum Cost
+        </a>
+        <a
+          className="nav-item nav-link "
+          field="UserRating"
+          href="#"
+          onClick={[Function]}
+          order="desc"
+        >
+          User ratings
+        </a>
+      </div>
+    </div>
+  </nav>
+  <div
+    className="hotel card mb-3"
+  >
+    <div
+      className="card-body"
+    >
+      <div
+        className="card-text"
+      >
+        <img
+          alt="Aberotel Montparnasse"
+          className="rounded float-md-left float-sm-left mr-3"
+          src="https://i.t-rp.co.uk/ei/2/1/8/2/9/4/4/0_80_80.jpg"
+        />
+        <div
+          className="float-md-left float-sm-left"
+        >
+          <h5
+            className="card-title"
+          >
+            Aberotel Montparnasse
+          </h5>
+          <div
+            className="stars"
+          >
+            <span
+              className="fa fa-star checked"
+            />
+            <span
+              className="fa fa-star checked"
+            />
+            <span
+              className="fa fa-star checked"
+            />
+            <span
+              className="fa fa-star false"
+            />
+            <span
+              className="fa fa-star false"
+            />
+          </div>
+          <div>
+            Paris
+              (
+            <span
+              className="fa fa-map-marker"
+            />
+             
+            3.49
+             miles away)
+          </div>
+        </div>
+        <div
+          className="float-md-right text-md-right float-sm-left text-sm-left"
+        >
+          <div>
+            Great
+             - 
+            8
+             / 10
+          </div>
+          <div
+            className="mb-3 text-muted"
+          >
+            1
+             reviews
+          </div>
+          <div
+            className="font-weight-bold font-italic"
+          >
+            £
+            844
+             (per night)
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <nav>
+    <ul
+      className="pagination float-right"
+    >
+      <li
+        className="page-item prev disabled"
+      >
+        <a
+          aria-label="Previous"
+          className="page-link"
+          href="#"
+          onClick={[Function]}
+          page={0}
+        >
+          <span
+            aria-hidden="true"
+            onClick={[Function]}
+            page={0}
+          >
+            «
+          </span>
+          <span
+            className="sr-only"
+          >
+            Previous
+          </span>
+        </a>
+      </li>
+      <li
+        className="page-item page-item-1 active"
+      >
+        <a
+          className="page-link"
+          href="#"
+          onClick={[Function]}
+          page={1}
+        >
+          1
+        </a>
+      </li>
+      <li
+        className="page-item next disabled"
+      >
+        <a
+          aria-label="Next"
+          className="page-link"
+          href="#"
+          onClick={[Function]}
+          page={2}
+        >
+          <span
+            aria-hidden="true"
+            onClick={[Function]}
+            page={2}
+          >
+            »
+          </span>
+          <span
+            className="sr-only"
+          >
+            Next
+          </span>
+        </a>
+      </li>
+    </ul>
+    <div
+      className="font-italic text-muted"
+    >
+      Page: 1 / 1
+    </div>
+  </nav>
+</div>
+`;

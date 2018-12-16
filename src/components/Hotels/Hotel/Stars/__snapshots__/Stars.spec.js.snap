@@ -1,0 +1,45 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Stars Component renders correctly for 3 stars 1`] = `
+<div
+  className="stars"
+>
+  <span
+    className="fa fa-star checked"
+  />
+  <span
+    className="fa fa-star checked"
+  />
+  <span
+    className="fa fa-star checked"
+  />
+  <span
+    className="fa fa-star false"
+  />
+  <span
+    className="fa fa-star false"
+  />
+</div>
+`;
+
+exports[`Stars Component renders correctly for 5 stars 1`] = `
+<div
+  className="stars"
+>
+  <span
+    className="fa fa-star checked"
+  />
+  <span
+    className="fa fa-star checked"
+  />
+  <span
+    className="fa fa-star checked"
+  />
+  <span
+    className="fa fa-star checked"
+  />
+  <span
+    className="fa fa-star checked"
+  />
+</div>
+`;

@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Branding Component renders correctly 1`] = `
+<nav
+  className="navbar navbar-dark bg-dark"
+>
+  <h1>
+    <span
+      className="navbar-brand mb-0 h1"
+    >
+      MTravels
+    </span>
+  </h1>
+</nav>
+`;

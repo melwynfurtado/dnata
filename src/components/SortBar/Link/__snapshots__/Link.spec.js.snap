@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Link Component renders correctly when field is not same as sort by key 1`] = `
+<a
+  className="nav-item nav-link "
+  field="Distance"
+  href="#"
+  onClick={[MockFunction]}
+  order="desc"
+>
+  Distance
+</a>
+`;
+
+exports[`Link Component renders correctly when field same as sort by key 1`] = `
+<a
+  className="nav-item nav-link active"
+  field="Stars"
+  href="#"
+  onClick={[MockFunction]}
+  order="desc"
+>
+  Stars
+  <span
+    className="ml-1 align-text-top fa fa-sort-desc"
+    field="Stars"
+    order="desc"
+  />
+</a>
+`;

@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Checkbox Component renders correctly 1`] = `
+<div
+  className="form-check"
+>
+  <input
+    className="form-check-input"
+    id="5star"
+    onChange={[MockFunction]}
+    type="checkbox"
+    value="5"
+  />
+  <label
+    className="form-check-label"
+    htmlFor="5star"
+  >
+    5 stars
+  </label>
+</div>
+`;
